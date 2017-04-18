@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<history>
+<session>
+<command time_stamp="15a8977b3c5">%-- 01/03/2017 11:43 --%</command>
+<command execution_time="67">FVMatch</command>
+<command error="true" execution_time="1086">Match 1011.tif 1012.tif result.txt</command>
+<command execution_time="33">FVMatch</command>
+<command error="true" execution_time="439">FVMatch ( 1011.tif, 1012.tif , result.txt)</command>
+<command execution_time="32">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command execution_time="47">FVMatch ( '1011.tif', '1012.tif' , 'result1.txt')</command>
+<command execution_time="15" repeat="2">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command execution_time="15">FVMatch ( '1011.tif', '1012.tif' , 'resu')</command>
+<command execution_time="51">FVMatch</command>
+<command execution_time="16">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command execution_time="35">FVMatch</command>
+<command execution_time="19">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+</session>
+<session>
+<command batch="1" error="true">%-- 01-03-2017 11:43 --%</command>
+<command batch="1" error="true">FVMatch</command>
+<command batch="1" error="true">Match 1011.tif 1012.tif result.txt</command>
+<command batch="1" error="true">FVMatch</command>
+<command batch="1" error="true">FVMatch ( 1011.tif, 1012.tif , result.txt)</command>
+<command batch="1" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command batch="1" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result1.txt')</command>
+<command batch="1" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command batch="1" error="true">FVMatch ( '1011.tif', '1012.tif' , 'resu')</command>
+<command batch="1" error="true">FVMatch</command>
+<command batch="1" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command batch="1" error="true">FVMatch</command>
+<command batch="1" error="true" execution_time="318">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command error="true" execution_time="218">clcl</command>
+<command execution_time="21">clc</command>
+<command execution_time="15" repeat="4">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+</session>
+<session>
+<command batch="2" error="true">%-- 01-03-2017 11:43 --%</command>
+<command batch="2" error="true">FVMatch</command>
+<command batch="2" error="true">Match 1011.tif 1012.tif result.txt</command>
+<command batch="2" error="true">FVMatch</command>
+<command batch="2" error="true">FVMatch ( 1011.tif, 1012.tif , result.txt)</command>
+<command batch="2" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command batch="2" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result1.txt')</command>
+<command batch="2" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command batch="2" error="true">FVMatch ( '1011.tif', '1012.tif' , 'resu')</command>
+<command batch="2" error="true">FVMatch</command>
+<command batch="2" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command batch="2" error="true">FVMatch</command>
+<command batch="2" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+</session>
+<session>
+<command batch="2" error="true">%-- 01-03-2017 11:43 --%</command>
+<command batch="2" error="true">FVMatch</command>
+<command batch="2" error="true">Match 1011.tif 1012.tif result.txt</command>
+<command batch="2" error="true">FVMatch</command>
+<command batch="2" error="true">FVMatch ( 1011.tif, 1012.tif , result.txt)</command>
+<command batch="2" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command batch="2" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result1.txt')</command>
+<command batch="2" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command batch="2" error="true">FVMatch ( '1011.tif', '1012.tif' , 'resu')</command>
+<command batch="2" error="true">FVMatch</command>
+<command batch="2" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command batch="2" error="true">FVMatch</command>
+<command batch="2" error="true">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command batch="2" error="true">clcl</command>
+<command batch="2" error="true">clc</command>
+<command batch="2" error="true" execution_time="351">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command execution_time="16">clc</command>
+<command execution_time="29" repeat="7">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command execution_time="21">FVMatch ( '1011.tif', '1012.tif' , 'result2017.txt')</command>
+<command execution_time="63">k=FVMatch ( '1011.tif', '1012.tif' , 'result2017.txt')</command>
+<command execution_time="24">k</command>
+<command execution_time="25">k=FVMatch ( '1011.tif', '1012.tif' , 'result2')</command>
+<command execution_time="47">STFVMatch</command>
+<command execution_time="30">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command error="true" execution_time="140">main_driver</command>
+<command error="true" execution_time="222">make_year_html</command>
+<command execution_time="1026" repeat="3">drawusa</command>
+<command error="true" execution_time="348">show</command>
+<command execution_time="38">verify</command>
+<command error="true" execution_time="345">show_minutia</command>
+<command error="true" execution_time="368">show(Simple2.bmp)</command>
+<command error="true" execution_time="146">show('Simple2.bmp')</command>
+<command execution_time="8118">show('Sample2.bmp')</command>
+<command error="true" execution_time="23">normalise('Sample2.bmp)</command>
+<command execution_time="111">normalise('Sample2.bmp')</command>
+<command error="true" execution_time="389">show_munitia('Sample2.bmp')</command>
+<command error="true" execution_time="4578">show_minutia('Sample2.bmp')</command>
+<command error="true" execution_time="25015">engine</command>
+</session>
+<session>
+<command time_stamp="15a8e7b52a9">%-- 02/03/2017 11:05 --%</command>
+<command error="true" execution_time="562">phpcreatefile</command>
+<command error="true" execution_time="458">phpcreatefile(1.txt)</command>
+<command batch="3">phpcreatefile('1.txt')</command>
+</session>
+<session>
+<command time_stamp="15a8e95d918">%-- 02/03/2017 11:34 --%</command>
+<command error="true" execution_time="468">phpcreatefile</command>
+<command error="true" execution_time="83">phpcreatefile('1.txt')</command>
+<command execution_time="46">clc</command>
+<command error="true" execution_time="32">phpcreatefile('1.txt')</command>
+<command execution_time="16">clc</command>
+<command error="true" execution_time="31" repeat="3">phpcreatefile('1.txt')</command>
+<command error="true" execution_time="32" repeat="2">phpcreatefile('test.txt')</command>
+<command error="true" execution_time="25">phpcreatefile('1.txt')</command>
+<command execution_time="153" repeat="4">phpcreatefile</command>
+</session>
+<session>
+<command time_stamp="15a8ea2906a">%-- 02/03/2017 11:48 --%</command>
+<command error="true" execution_time="144" repeat="3">loadjson</command>
+</session>
+<session>
+<command time_stamp="15ad84ca99e">%-- 16/03/2017 19:06 --%</command>
+<command error="true" execution_time="1401">addtopath('E:\PFE\PFE\PlateForme\jsonlab-1.5.mltbx')</command>
+<command execution_time="250">addpath('E:\PFE\PFE\PlateForme\jsonlab-1.5.mltbx')</command>
+<command execution_time="63">addpath('C:\Program Files\MATLAB\MATLAB Production Server\R2015a\lib\jsonlab-1.5.mltbx')</command>
+<command execution_time="63">addpath('E:\PFE\PFE\PlateForme\jsonlab-1.5.mltbx')</command>
+<command execution_time="84">addpath('E:\PFE\PFE\PlateForme\jsonlab')</command>
+<command error="true" execution_time="311">cls</command>
+<command execution_time="39">clc</command>
+</session>
+<session>
+<command time_stamp="15af6467f5c">%-- 22/03/2017 14:48 --%</command>
+<command error="true" execution_time="25" repeat="10">matlab</command>
+</session>
+<session>
+<command time_stamp="15af6591401">%-- 22/03/2017 15:08 --%</command>
+<command batch="4" error="true">matlab</command>
+<command batch="4" error="true">matlab</command>
+<command batch="4" error="true" execution_time="6732">matlab</command>
+<command error="true" execution_time="39" repeat="4">matlab</command>
+<command error="true" execution_time="77">savejson</command>
+<command error="true" execution_time="41" repeat="2">matlab</command>
+</session>
+<session>
+<command time_stamp="15af67ba893">%-- 22/03/2017 15:46 --%</command>
+<command batch="5" execution_time="39" repeat="13">matlab</command>
+<command batch="5">matlab</command>
+</session>
+<session>
+<command time_stamp="15af69c737c">%-- 22/03/2017 16:22 --%</command>
+<command error="true" execution_time="43" repeat="7">matlab</command>
+<command execution_time="48">clc</command>
+<command error="true" execution_time="40">matlab</command>
+<command error="true" execution_time="483">cls</command>
+<command execution_time="20">clc</command>
+<command batch="6" error="true" execution_time="44" repeat="2">matlab</command>
+<command batch="6" error="true" execution_time="87930">savejson</command>
+<command error="true" execution_time="7570" repeat="5">matlab</command>
+</session>
+<session>
+<command time_stamp="15af6d06af8">%-- 22/03/2017 17:18 --%</command>
+<command error="true" execution_time="1191">QUANTAXIS</command>
+<command error="true" execution_time="114">TestQUANTAXIS</command>
+<command error="true" execution_time="121">test</command>
+<command execution_time="676">DataFetch.Methods.DFSina</command>
+</session>
+<session>
+<command time_stamp="15af70c40a0">%-- 22/03/2017 18:24 --%</command>
+</session>
+<session>
+<command time_stamp="15b0e61ee89">%-- 27/03/2017 08:09 --%</command>
+<command execution_time="337">run('E:\PFE\PFE\Conception\Downloads\FVC\SourceMatlab_FV\FVEnroll.m')</command>
+</session>
+<session>
+<command time_stamp="15b0e704889">%-- 27/03/2017 08:24 --%</command>
+<command execution_time="35" repeat="5">FVMatch ( '1011.tif', '1012.tif' , 'result.txt')</command>
+<command execution_time="63">FVMatch ( '1011.tif', '1012.tif' , 'result001.txt')</command>
+<command execution_time="31">FVMatch ( '101_2.tif', '101_3.tif' , 'result001.txt')</command>
+</session>
+<session>
+<command time_stamp="15b0e762621">%-- 27/03/2017 08:31 --%</command>
+<command error="true" execution_time="3017">MccMatcher</command>
+<command execution_time="53126">Minutuae_Extraction</command>
+</session>
+<session>
+<command time_stamp="15b3e27e0ae">%-- 05/04/2017 14:47 --%</command>
+<command error="true" execution_time="551">freqest</command>
+<command error="true" execution_time="1195" repeat="2">testfin</command>
+<command error="true" execution_time="310">cls</command>
+<command execution_time="68">clc</command>
+<command error="true" execution_time="43">testfin</command>
+<command execution_time="47">clc</command>
+<command error="true" execution_time="41" repeat="3">testfin</command>
+<command error="true" execution_time="27357">testdbscan</command>
+<command error="true" execution_time="46">testfin</command>
+<command execution_time="19">clc</command>
+<command error="true" execution_time="586">ridgesegment</command>
+<command execution_time="20">clc</command>
+<command error="true" execution_time="11690">testdbscan</command>
+<command error="true" execution_time="1797">testfin</command>
+<command execution_time="16">clc</command>
+<command execution_time="42676">testfin</command>
+</session>
+<session>
+<command time_stamp="15b3effeaf9">%-- 05/04/2017 18:43 --%</command>
+</session>
+</history>

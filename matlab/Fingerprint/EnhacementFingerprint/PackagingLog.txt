@@ -1,0 +1,61 @@
+ant:
+<ant>
+  <mkdir dir="E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\EnhacementFingerprint\for_redistribution" />
+  <mkdir dir="E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\EnhacementFingerprint\for_testing" />
+</ant>
+mcc -W CTF:EnhacementFingerprint -U -d E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\EnhacementFingerprint\for_testing -v E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\freqest.m E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\normalise.m E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\plotridgeorient.m E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\ridgefilter.m E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\ridgefreq.m E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\ridgeorient.m E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\ridgesegment.m E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\show.m E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\testfin.m 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path
+"E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement" to Compiler path
+instance.] 
+[Warning: Adding path
+"E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement" to Compiler path
+instance.] 
+[Warning: Adding path
+"E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement" to Compiler path
+instance.] 
+[Warning: Adding path
+"E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement" to Compiler path
+instance.] 
+[Warning: Adding path
+"E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement" to Compiler path
+instance.] 
+[Warning: Adding path
+"E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement" to Compiler path
+instance.] 
+[Warning: Adding path
+"E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement" to Compiler path
+instance.] 
+[Warning: Adding path
+"E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement" to Compiler path
+instance.] 
+[Warning: Adding path
+"E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement" to Compiler path
+instance.] 
+Parsing file "E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\freqest.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\normalise.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\plotridgeorient.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\ridgefilter.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\ridgefreq.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\ridgeorient.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\ridgesegment.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\show.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\Enhacement\testfin.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 4 temporary MEX authorization files.
+Removing: 'C:\Users\ketimaBU\AppData\Local\Temp\mathworks_tmp_01ae824329_6888.auth'.
+Removing: 'C:\Users\ketimaBU\AppData\Local\Temp\mathworks_tmp_01ae829346_6888.auth'.
+Removing: 'C:\Users\ketimaBU\AppData\Local\Temp\mathworks_tmp_01ae81921_6888.auth'.
+Removing: 'C:\Users\ketimaBU\AppData\Local\Temp\mathworks_tmp_01ae817877_6888.auth'.
+Generating file "E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\EnhacementFingerprint\for_testing\readme.txt".
+com.mathworks.toolbox.compiler.plugin.DeployableArchivePackageCommand@5e7f61b4
+Elapsed packaging time was: 4 minutes and 46 seconds.

@@ -1,0 +1,17 @@
+18 [2017.04.14 09:47:17.482470] [information] [SERVICE:auto-restart] restart trigger fired (reason: The requested interval of 12:00:02 has elapsed.)
+19 [2017.04.14 09:47:17.558469] [information] [SERVICE:worker] Waiting for worker 1 to finish pending activity
+20 [2017.04.14 09:47:17.571470] [information] [SERVICE:worker] Starting graceful shutdown of worker 1
+21 [2017.04.14 09:47:17.573469] [information] [SERVICE:worker] Shutdown request was successfully sent to worker 1; waiting for process to exit...
+22 [2017.04.14 09:47:26.267497] [information] [SERVICE:worker] Worker 1 exited with code 0
+23 [2017.04.14 09:47:26.268002] [information] [SERVICE:worker] Worker 1 successfully stopped.
+24 [2017.04.14 09:47:31.140064] [out] [worker:2] Worker ready
+25 [2017.04.14 09:47:31.144034] [information] [SERVICE:worker] Worker 2 started
+26 [2017.04.14 10:24:26.192276] [error] [connection_id:1] [service:http-connection] URL not found
+27 [2017.04.14 21:47:39.147191] [information] [SERVICE:auto-restart] restart trigger fired (reason: The requested interval of 12:00:08 has elapsed.)
+28 [2017.04.14 21:47:39.148191] [information] [SERVICE:worker] Waiting for worker 2 to finish pending activity
+29 [2017.04.14 21:47:39.148671] [information] [SERVICE:worker] Starting graceful shutdown of worker 2
+30 [2017.04.14 21:47:39.150666] [information] [SERVICE:worker] Shutdown request was successfully sent to worker 2; waiting for process to exit...
+31 [2017.04.14 21:47:41.469892] [information] [SERVICE:worker] Worker 2 exited with code 0
+32 [2017.04.14 21:47:41.470397] [information] [SERVICE:worker] Worker 2 successfully stopped.
+33 [2017.04.14 21:47:43.015919] [out] [worker:3] Worker ready
+34 [2017.04.14 21:47:43.017919] [information] [SERVICE:worker] Worker 3 started

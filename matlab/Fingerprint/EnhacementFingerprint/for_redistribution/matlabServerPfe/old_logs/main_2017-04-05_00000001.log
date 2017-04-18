@@ -1,0 +1,17 @@
+1 [2017.04.05 19:34:24.861996] [information] Starting master (pid = 1968)
+2 [2017.04.05 19:34:24.861996] [information] Global locale: fr_FR
+3 [2017.04.05 19:34:24.861996] [information] Global encoding: windows-1252
+4 [2017.04.05 19:34:24.861996] [information] terminal encoding: IBM437
+5 [2017.04.05 19:34:25.189865] [information] [SERVICE:FLEXlm Client] license unavailable
+6 [2017.04.05 19:34:25.189865] [information] [SERVICE:FLEXlm Client] temporarily disabling request processing
+7 [2017.04.05 19:34:25.189865] [information] [SERVICE:FLEXlm Client] reset current license type to be invalid
+8 [2017.04.05 19:34:25.346118] [information] [SERVICE:FLEXlm Client] current license type: "UNKNOWN"
+9 [2017.04.05 19:34:25.346118] [information] [SERVICE:FLEXlm Client] current license number: "161052"
+10 [2017.04.05 19:34:25.346118] [information] [SERVICE:FLEXlm Client] license checked out successfully
+11 [2017.04.05 19:34:29.612723] [information] [SERVICE:FLEXlm Client] connection to license server recovered
+12 [2017.04.05 19:34:29.628287] [information] [SERVICE:FLEXlm Client] enable request processing
+13 [2017.04.05 19:34:29.706411] [information] [SERVICE:http] [endpoint:[::]:9910] Listening for connections
+14 [2017.04.05 19:34:34.254715] [out] [worker:1] Worker ready
+15 [2017.04.05 19:34:34.301549] [information] [SERVICE:worker] Worker 1 started
+16 [2017.04.05 19:34:34.373480] [information] Master started
+17 [2017.04.05 19:35:10.560568] [information] [SERVICE:auto-deploy] Added 'EnhacementFingerprint' ('E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\EnhacementFingerprint\for_redistribution\matlabServerPfe\auto_deploy\EnhacementFingerprint.ctf' -> 'E:\PFE\PFE\PlateForme\PFEV0\matlab\Fingerprint\EnhacementFingerprint\for_redistribution\matlabServerPfe\.mps_deployed\EnhacementFingerprint_2')

@@ -1,0 +1,8 @@
+35 [2017.04.15 13:48:16.543240] [information] [SERVICE:auto-restart] restart trigger fired (reason: The requested interval of 12:00:05 has elapsed.)
+36 [2017.04.15 13:48:16.543240] [information] [SERVICE:worker] Waiting for worker 3 to finish pending activity
+37 [2017.04.15 13:48:16.543240] [information] [SERVICE:worker] Starting graceful shutdown of worker 3
+38 [2017.04.15 13:48:16.543240] [information] [SERVICE:worker] Shutdown request was successfully sent to worker 3; waiting for process to exit...
+39 [2017.04.15 13:48:23.885574] [information] [SERVICE:worker] Worker 3 exited with code 0
+40 [2017.04.15 13:48:23.885574] [information] [SERVICE:worker] Worker 3 successfully stopped.
+41 [2017.04.15 13:48:25.904065] [out] [worker:4] Worker ready
+42 [2017.04.15 13:48:25.904065] [information] [SERVICE:worker] Worker 4 started
