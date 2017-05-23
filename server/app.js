@@ -35,13 +35,17 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-//app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 // [SH] Set the app_client folder to serve static resources
 app.use(express.static(path.join(__dirname, 'client')));
 
 // [SH] Initialise Passport before using the route middleware
 app.use(passport.initialize());
-
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
 // [SH] Use the API routes when path starts with /api
 app.use('/api', routesApi);
 var port = process.env.NODE_ENV === 'production' ? 80 : 4000;
