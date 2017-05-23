@@ -31,9 +31,13 @@
     font-family: $font-family;
     white-space: nowrap;
     float: left;
+      width: fit-content; 
+    height: fit-content;
+
+    width: 9%;
+    height: 75px;
     outline: none !important;
     line-height: 60px;
-
     span {
       color: $primary;
     }
@@ -158,6 +162,33 @@
     }
 
   }
+  a.btn.btn-default
+  {
+  color: $body-bg!important;
+
+  }
+  .btn-auth
+{
+  margin-right:2px;
+  color: $body-bg!important;
+}
+div.user-profile
+ {
+     min-width:fit-content !important;
+ }
+ div.language
+ {
+  
+ select
+ {
+
+    background-color: $default;
+  }
+ }
+ $langUrl: $assets-root + $images-root ;
+
+select#languageID option[value="fr"]   { background-image:url($langUrl+ 'fr-flag.png');   }
+
 
   @media screen and (max-width: $resS) {
     .search {

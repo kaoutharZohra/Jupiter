@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgUploaderOptions } from 'ngx-uploader';
 
 @Component({
   selector: 'app-ressources',
@@ -8,7 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class RessourcesComponent implements OnInit {
 
   constructor() { }
-
+ public fileUploaderOptions:NgUploaderOptions = {
+    // url: 'http://website.com/upload'
+    url: '',
+  };
   ngOnInit() {
   }
 

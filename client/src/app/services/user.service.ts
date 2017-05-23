@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Http, Headers, RequestOptions, Response } from '@angular/http';
-
 import { AppConfig } from '../app.config';
 import { User } from '../models/index';
 
@@ -17,6 +16,8 @@ export class UserService {
     }
 
     create(user: User) {
+        console.log("inside service,"+user.name+"hhhh");
+
         return this.http.post(this.config.apiUrl + '/users/register', user, this.jwt());
     }
 

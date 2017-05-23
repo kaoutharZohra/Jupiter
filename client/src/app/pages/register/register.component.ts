@@ -2,15 +2,15 @@ import {Component} from '@angular/core';
 import {FormGroup, AbstractControl, FormBuilder, Validators,NgForm} from '@angular/forms';
 import {EmailValidator, EqualPasswordsValidator} from '../../theme/validators';
 import {UserService } from '../../services/index';
-import {User} from '../../models/index'
-@Component({
+import {User} from '../../models/index';
+import { Router } from '@angular/router';@Component({
   moduleId: module.id,
   selector: 'register',
   templateUrl: './register.html',
   styleUrls: ['./register.scss'],
 })
-export class Register  {
-   model: any = {};
+export class Register {
+
   public form:FormGroup;
   public name:AbstractControl;
   public email:AbstractControl;
@@ -19,30 +19,37 @@ export class Register  {
   public passwords:FormGroup;
   public submitted:boolean = false;
 
-  constructor(fb:FormBuilder,private userService: UserService) {
+  constructor(fb:FormBuilder,private userService: UserService,private router: Router) {
+
     this.form = fb.group({
       'name': ['', Validators.compose([Validators.required, Validators.minLength(4)])],
       'email': ['', Validators.compose([Validators.required, EmailValidator.validate])],
-      'passwords': fb.group({
         'password': ['', Validators.compose([Validators.required, Validators.minLength(6)])],
-        'repeatPassword': ['', Validators.compose([Validators.required, Validators.minLength(6)])]
-      }, {validator: EqualPasswordsValidator.validate('password', 'repeatPassword')})
-    });
+        'repeatPassword': ['', Validators.compose([Validators.required, Validators.minLength(6)])]},
+       {validator: EqualPasswordsValidator.validate('password', 'repeatPassword')}
+    );
 
     this.name = this.form.controls['name'];
     this.email = this.form.controls['email'];
-    this.passwords = <FormGroup> this.form.controls['passwords'];
-    this.password = this.passwords.controls['password'];
-    this.repeatPassword = this.passwords.controls['repeatPassword'];
+    this.password = this.form.controls['password'];
+    this.repeatPassword = this.form.controls['repeatPassword'];
   }
-  register(model: User)
+  public onSubmit(model: User):void
   {
+
+
    if (this.form.valid) {
-       this.userService.create(this.model);
+   delete model['repeatPassword'];
+
         console.log(model);
+
+        this.userService.create(model).subscribe(
+                                                            data => {
+this.router.navigate(['/login']);
+                                                            },
+                                                            error => {
+
+                                                            });;
       }
   }
-
-
-
 }

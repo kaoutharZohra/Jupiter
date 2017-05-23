@@ -23,11 +23,11 @@ export const routes: Routes = [
 
 
       { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-      { path: 'tests', loadChildren: './tests/tests.module#TestsModule' },
-      { path: 'ressources', loadChildren: './ressources/ressources.module#RessourcesModule' },
-      { path: 'methodes', loadChildren: './methodes/methodes.module#MethodesModule' },
-      { path: 'results', loadChildren: './results/results.module#ResultsModule' },
-      { path: 'logs', loadChildren: './logs/logs.module#LogsModule' },
+      { path: 'Tests', loadChildren: './tests/tests.module#TestsModule' },
+      { path: 'Ressources', loadChildren: './ressources/ressources.module#RessourcesModule' },
+      { path: 'Methodes', loadChildren: './methodes/methodes.module#MethodesModule' },
+      { path: 'Results', loadChildren: './results/results.module#ResultsModule' },
+      { path: 'Logs', loadChildren: './logs/logs.module#LogsModule' },
 
     ]
   }

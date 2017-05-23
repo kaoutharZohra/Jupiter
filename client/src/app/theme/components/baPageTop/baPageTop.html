@@ -1,19 +1,48 @@
 <div class="page-top clearfix" baScrollPosition maxHeight="50" (scrollChange)="scrolledChanged($event)"
      [ngClass]="{scrolled: isScrolled}">
-  <a routerLink="/pages/tests" class="al-logo clearfix"><span>Jupiter</span></a>
+  <a   routerLink="/pages/tests" class="al-logo clearfix">
+  <img  class=" img-responsive clearfix" alt="" width="25%" src="{{ ( 'jupiter' | baProfilePicture ) }}" />
+
+  <span>Jupiter</span>
+
+  </a>
   <a href (click)="toggleMenu()" class="collapse-menu-link ion-navicon"></a>
-    <div class="user-profile clearfix">
+    <div *ngIf="logged"  class="user-profile clearfix">
     <div class="dropdown al-user-profile">
+
       <a class="profile-toggle-link dropdown-toggle" id="user-profile-dd" data-toggle="dropdown" aria-expanded="false">
         <img src="{{ ( 'Nasta' | baProfilePicture ) }}">
+
       </a>
       <ul class="dropdown-menu top-dropdown-menu profile-dropdown" aria-labelledby="user-profile-dd">
         <li class="dropdown-item"><a href><i class="fa fa-user"></i>Profile</a></li>
         <li class="dropdown-item"><a href><i class="fa fa-cog"></i>Settings</a></li>
-        <li class="dropdown-item"><a href class="signout"><i class="fa fa-power-off"></i>Sign out</a></li>
+        <li class="dropdown-item"><a href (click)="logout()"  class="signout"><i class="fa fa-power-off"></i>Sign out</a></li>
       </ul>
     </div>
 
       <ba-msg-center></ba-msg-center>
   </div>
+
+  <div *ngIf="!logged"  class="user-profile clearfix">
+ 
+  <button  type="button" routerLink="/login" class="btn btn-default btn-auth pull-right "translate>{{'login.sign_in'}}</button>
+  <button  type="button" routerLink="/register" class="btn btn-default btn-auth pull-right "translate>Sign up</button>
+</div>
+
+<div class=" user-profile  language clearfix ">
+    <div class="form-group ">
+  <label for="languageID"></label>
+  <select class="btn btn-default btn-auth " id="languageID">
+
+    <option>English</option>
+    <option >Français</option>
+ 
+  </select>
+  
+</div>
+
+ 
+  </div>
+
 </div>

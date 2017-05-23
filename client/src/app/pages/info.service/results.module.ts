@@ -2,29 +2,30 @@ import { NgModule }      from '@angular/core';
 import { CommonModule }  from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { NgaModule } from '../../theme/nga.module';
+
+import { Charts } from '../charts/charts.component';
 import { ChartistJs } from '../charts/components/chartistJs/chartistJs.component';
 import { ChartistJsService } from '../charts/components/chartistJs/chartistJs.service';
 import { AppTranslationModule } from '../../app.translation.module';
-import { CondensedTableModule } from '../tables/components/basicTables/components/condensedTable/condensedTable.module';
 
 import { routing } from './results-routing';
 import { ResultsComponent } from './results.component';
-import { BasicTablesService } from '../tables/components/basicTables/basicTables.service';
+
 @NgModule({
   imports: [
-       CommonModule,
+     CommonModule,
     AppTranslationModule,
     FormsModule,
-    NgaModule, 
-    routing ,CondensedTableModule
-    
+    NgaModule,
+    routing
   ],
   declarations: [
   ResultsComponent,
+    Charts,
     ChartistJs
   ],
   providers: [
-    ChartistJsService,BasicTablesService
+    ChartistJsService
   ]
 })
 export class ResultsModule { }

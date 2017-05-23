@@ -12,7 +12,7 @@ import { LogsComponent } from './logs/logs.component';
 
 @NgModule({
   imports: [CommonModule, AppTranslationModule, NgaModule, routing],
-  declarations: [Pages, TestsComponent, RessourcesComponent, MethodesComponent, ResultsComponent, LogsComponent]
+  declarations: [Pages]
 })
 export class PagesModule {
 }

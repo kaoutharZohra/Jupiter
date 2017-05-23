@@ -7,7 +7,7 @@ export const PAGES_MENU = [
         data: {
           menu: {
             title: 'Tests',
-            icon: 'ion-android-home',
+            icon: 'ion-play',
             selected: true,
             expanded: false,
             order: 0
@@ -19,7 +19,7 @@ export const PAGES_MENU = [
         data: {
           menu: {
             title: 'Ressources',
-            icon: 'ion-edit',
+            icon: 'ion-filing',
             selected: false,
             expanded: false,
             order: 100,
@@ -30,7 +30,7 @@ export const PAGES_MENU = [
   data: {
   menu: {
     title: 'Méthodes',
-      icon: 'ion-android-home',
+      icon: 'ion-document-text',
       selected: false,
       expanded: false,
       order: 0
@@ -41,7 +41,7 @@ export const PAGES_MENU = [
         data: {
           menu: {
             title: 'Résultats',
-            icon: 'ion-android-home',
+            icon: 'ion-stats-bars',
             selected: false,
             expanded: false,
             order: 0
@@ -52,7 +52,7 @@ export const PAGES_MENU = [
         data: {
           menu: {
             title: 'Historiques',
-            icon: 'ion-android-home',
+            icon: 'ion-clock',
             selected: false,
             expanded: false,
             order: 0

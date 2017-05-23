@@ -1,3 +1,23 @@
-<p>
-  results works!
-</p>
+<div class="row pie-charts">
+
+  <ba-card *ngFor="let chart of charts" class="pie-chart-item-container col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12">
+
+    <div class="pie-chart-item">
+ 
+      <div class="description">
+        <div class="description-number" align="center">{{ chart.number }}</div>
+ 
+        <div class="description-stats" align="center">{{ chart.info }}</div>
+      </div>
+     </div>
+
+  </ba-card>
+</div>
+<chartist-js></chartist-js>
+  <div class="row">
+       <ba-card title="Test Results" baCardClass="with-scroll table-panel">
+        <condensed-table></condensed-table>
+      </ba-card>
+    
+
+    </div>
