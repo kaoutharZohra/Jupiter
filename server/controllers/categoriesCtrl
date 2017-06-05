@@ -1,0 +1,72 @@
+
+var mongoose = require('mongoose');
+var Category = require('../models/category').Category;
+//mongoose.Promise = global.Promise;
+ 
+/** create function to create Category. */
+exports.create = function (req, res) {
+ 
+   // new Thread({title: req.body.title, author: req.body.author}).save();
+Category =new Category({name:req.body.name,
+    modality: req.body.modality,module: req.body.module, 
+    nbMaxParm: req.body.nbMaxParm, description: req.body.description,
+     header: req.body.header , ref: req.body.ref});
+    Category.save( function(err, result) {
+        if (!err) {
+
+            return res.json(result);
+        } else {
+  
+            return res.send(err); // 500 error
+        }
+    });
+};
+
+/** getCategory function to get Category by id. */
+exports.getAll = function (req, res) {
+   
+
+    Category.find({}, function(err, dbs) {
+    var dbMap = {};
+
+    dbs.forEach(function(db) {
+      dbMap[db._id] = db;
+    });
+
+    res.send(dbMap);  
+  });
+};
+
+/** getCategory function to get Category by id. */
+exports.get = function (req, res) {
+   
+     Category.find({_id: req.params.id}, function(err, db) {
+            if (err)
+                res.send(err);
+            res.json(db);
+        });
+};
+
+/** updateCategory function to get Category by id. */
+exports.update = function (req, res) {
+   // This would likely be inside of a PUT request, since we're updating an existing document, hence the req.params.dbId.
+// Find the existing resource by ID
+Category.findOneAndUpdate(req.params._id, req.body, function (err, db) {  
+    // Handle any possible Category errors
+      if (err)
+                res.send(err);
+            res.json(db);
+   
+});
+}
+
+/** removeCategory function to get Category by id. */
+exports.delete = function (req, res) {
+    Category.findOneAndRemove({name: req.params.name}, function(err, result) {
+    
+    res.send(result);  
+  });
+}
+
+
+  

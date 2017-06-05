@@ -46,4 +46,7 @@ process.on('SIGTERM', function() {
 });
 
 // BRING IN YOUR SCHEMAS & MODELS
-require('./users');
+require('./user');
+require('./ressource');
+require('./method');
+require('./category');

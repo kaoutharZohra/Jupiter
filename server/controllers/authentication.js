@@ -42,7 +42,6 @@ module.exports.login = function(req, res) {
   //   });
   //   return;
   // }
-
   passport.authenticate('local', function(err, user, info){
     var token;
 
@@ -67,3 +66,22 @@ module.exports.login = function(req, res) {
   })(req, res);
 
 };
+// Middleware that requires the user to be logged in. If the user is not logged
+// in, it will redirect the user to authorize the application and then return
+// them to the original URL they requested.
+function authRequired (req, res, next) {
+  if (!req.user) {
+    req.session.oauth2return = req.originalUrl;
+    return res.redirect('/auth/login');
+  }
+  next();
+}
+
+// Middleware that exposes the user's profile as well as login/logout URLs to
+// any templates. These are available as `profile`, `login`, and `logout`.
+function addTemplateVariables (req, res, next) {
+  res.locals.profile = req.user;
+  res.locals.login = `/auth/login?return=${encodeURIComponent(req.originalUrl)}`;
+  res.locals.logout = `/auth/logout?return=${encodeURIComponent(req.originalUrl)}`;
+  next();
+}
